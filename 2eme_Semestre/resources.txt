@@ -1,0 +1,6 @@
+https://github.com/islers/youbot_simulation		# Youbot simulation with trajectory action server
+https://fr.mathworks.com/help/matlab/matlab_prog/timer-callback-functions.html		# Timer Callback Functions on Matlab
+http://gazebosim.org/tutorials/?tut=ros_control		# Gazebo ROS control Tutorial
+http://gazebosim.org/tutorials?tut=drcsim_ros_cmds&cat=		# Sending joint commands with ROS
+http://answers.gazebosim.org/question/4205/joint_state-ros-topic-from-gazebo-and-ros_control/		# Joint_states and ROS_control question
+https://github.com/uzh-rpg/rpg_youbot_torque_control/blob/master/README.md
