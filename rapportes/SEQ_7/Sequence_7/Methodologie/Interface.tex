@@ -1,0 +1,35 @@
+\mysubsection{2.B Interface Homme $ \leftrightarrow $ Machine}
+
+L’objectif de cette structure du travail est obtenir une interface graphique entre l’utilisateur et l’ordinateur qui permet deux joueurs jeter séquentiellement  leurs mouvements qui seront réalisés par le robot sur le tableau réel. Ainsi, l’interface doit recevoir comme paramètre d’entrée le mouvement souhaité par l’utilisateur et remettre comme sortie la variable qui va agir sur le robot. 
+
+En prenant en compte cet objectif et les limitations de temps prévus pour l’exécution de ces tâches, on souhaite construire une interface fonctionnelle, intuitif et déployé de façon simple. Alors, on a choisi développer l’interface par programmation en langage Matlab et de manière modularisée, à savoir, la séparation des différentes tâches en différentes fonctions et avec haut niveau d'indépendance. 
+
+\paragraph{2.B.0 Fonction concise des trajectoires et commande}
+On prévoit obtenir cette fonction comme produit d'intégration des résultats obtenus des structures A et B dans la première phase du projet (tâches 1.B.8 et 1.B.9).
+Comme produit d’étape de génération de trajectoire on attend obtenir un algorithme qui calcule le signal de consigne à partir de la position initiale de l'effecteur du robot,  de la position finale et du type de trajectoire souhaitée. Tandis que dans l’étape d’asservissement, on prévoit obtenir le calcul du couple qui va agir au fil du temps dans le robot à partir de la consigne. 
+Ainsi, en faisant l’intégration de ces deux algorithmes, on pourra obtenir une fonction qui calcule le couple à partir de la position finale souhaité et du type de trajectoire qui le robot va exécuter. Cette fonction sera appelée chaque fois que l’utilisateur, à partir des événements généré dans l’interface, demander un mouvement du robot. 
+
+\paragraph{2.B.1 Définition d'environnement de travail (tableau)} 
+Au début, on doit déterminer l’origine du repère outil, à savoir le repère de l’environnement de travail du robot. 
+À partir de cette spécification, on doit définir les dimensions et divisions du tableau du jeu du Morpion. Ainsi, on pourra définir les distances parcourues par l'effecteur du robot quand il se déplace sur les carrés du tableau. 
+Comme alternatif de cette détermination fixe de la taille du tableau, on peut aussi paramétrer la dimension du tableau. Ainsi, on laisse l’option pour l’utilisateur choisir la dimension souhaitée à partir de l’entrée de données de l’interface. Alors, on pourra aussi créer une fonction dans laquel le robot va faire le dessin du tableau.  
+
+\paragraph{2.B.2 Création des fonctions "X" et "O"}
+À partir de la fonction concise obtenue dans la tâche 2.B.0, on peut créer deux fonctions dans lequel le robot va faire le dessin du mouvement de “X” et “O”. La dimension des dessins devra être d’accord avec la dimension du tableau, ainsi cette fonction devra recevoir cette dimension comme un paramètre.
+
+\paragraph{2.B.3 Définition de la disposition graphique d’IHM}
+Dans cette tâche, on va faire l’ébauche de la séquence des actions qu’on attend que l’interface reçoive et quels objets et dispositions graphiques l’interface doit contenir. 
+
+\paragraph{2.B.4 Définition de données d'entrée nécessaires IHM}
+À partir des définitions de quels objectifs devront contenir dans l’interface, on va savoir quels les paramètres d’entrée que l’interface recevra. Ainsi, on pourra définir quels sont les autres paramètres et informations nécessaires pour l'exécution totale du jeu.
+Alors, on pourra démarrer et nommer les variables qui iront recevoir les paramètres d’entrée du jeu. Afin de faciliter le stockage et gestion de ces paramètres, on doit utiliser variables du type structure.
+
+\paragraph{2.B.5 L'insertion des objects graphiques}
+À partir de la définition précédent, on doit créer et insérer les éléments dans l’interface et déterminer aussi les propriétés respectives des objets.  
+
+\paragraph{2.B.6 Création et gestion d'événements}
+À partir de la création des objets, on va faire l’édition de chaque fonction \textit{callback} associée aux événements générés dans l’interface.  
+
+\paragraph{2.B.7 Tests, dépannage et intégration}
+Au début, on va tester les fonctionnalités de l’interface créée et, si besoin, on va faire le dépannage et amélioration dans l’algorithme de création.
+Alors, on prévoit d'intégrer la communication obtenue entre le PC et le robot (résultat de travail de la structure A) avec l’interface créée, afin d’obtenir la communication totale entre le robot $ \leftrightarrow $ PC $ \leftrightarrow $ utilisateur.

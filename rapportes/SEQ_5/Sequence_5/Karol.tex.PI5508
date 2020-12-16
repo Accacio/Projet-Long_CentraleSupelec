@@ -1,0 +1,21 @@
+Il existe deux emplois différents à faire par des robots : la palettisation et le remplissage des caisses avec des bouteilles.\\
+Pour la palettisation, considérant que le possible zone de travail et la vitesse d’arrivée et départ de palettes, on n’a besoin qu’un robot.  Pour le remplissage des caisses avec des bouteilles, si on n’utilise qu’un robot, son rayon d’action devra être plus élevé puis il existe deux convoyeurs des bouteilles, de plus sa vitesse devra être suffisante pour ne pas limiter la vitesse de production. Ainsi, l’espace disponible dans la zone de sécurité est suffisant pour l’addiction des robots, alors on a choisi d’utiliser deux robots dans le remplissage des caisses avec des bouteilles.\\    
+Dans les spécifications du projet, pour la palettisation est prévue que le préhenseur en charge aurait le poids de 25.8 kg et le robot choisi doit supporter cette charge. De plus, le bras du robot devra atteindre la zone des caisses et de palettes, ainsi il devra avoir un rayon d’action minimum égal le milieu du segment que relie les deux zones, équivalent à 1180mm. \\
+Pour le remplissage des caisses avec des bouteilles est prévu que le préhenseur en charge aurait le poids de 5.47 kg et le bras du robot devra atteindre la zone des convoyeurs de bouteilles et des caisses, de la même façon que le robot antérieur, ce robot devra avoir un rayon d’action minimum égal le milieu du segment de relie les deux zones, équivalente a (61+82+542/2)=414mm. \\
+Alors, à partir de ces spécifications et considérant les meilleurs coûts-bénéfices en termes de production ont été choisis les robots suivants : \\
+Robot de palettisation: robot controller 1
+Modele: R-2000iB/100H-2
+Figura 1
+-	Capacité de charge maxime admissible au poignet : 100 kg
+-	Rayon: 2655mm
+-	Axes: 5
+Les autres robots de la série R-2000iB ont plus grande capacité de charge et rayon d’action, ainsi ils ont aussi plus grands coûts. Pourtant, parmi les robots de palettisation de cette série que répond aux spécifications du projet, c’est le robot avec le plus grand coût-bénéfice. 
+Robot de remplissage des caisses avec des bouteilles: robot controller 2 and 3 
+Modele: LR Mate 200iD/7L
+Figura 2
+-	Capacité de charge: 7 kg;
+-	Rayon: 911mm
+-	Axes: 6
+-	Bras long
+Un autre robot de cette série LR Mate 200iD/7LC a les mêmes spécifications techniques du robot choisi, mais il est de la line cleam room robot, qu’il n’est pas nécessaire dans ce projet. Ainsi, pour répondre aux spécifications du projet le choix du robot LR Mate 2 – iD/7L est justifiée. 
+ 

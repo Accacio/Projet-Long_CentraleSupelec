@@ -1,0 +1,11 @@
+@echo off
+del *.zip
+del *.aux 
+del *synctex.gz
+del *.log
+del *.bbl
+del *.blg
+del *.out
+del *.toc
+del *.nav
+del *.snm

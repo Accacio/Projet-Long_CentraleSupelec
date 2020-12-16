@@ -1,0 +1,10 @@
+\mysection{Conclusion}
+Si on se rappelle des objectifs définis lors du début de ce document on peut, enfin vérifier dans quels aspects on les a atteints.
+
+A propos de la commande du robot on a bien atteint l’objectif d’avoir des lois de commande fonctionnelles, soit dans l’espace articulaire soit dans l’espace opérationnel. On a arrivé à suivre les trajectoires proposés, avec un système assez stable. Ce qui manque maintenant c’est un réglage plus affiné des paramètres des contrôleurs et vérifier les performances en prenant en compte les désadaptations des modèles et des bruits de mesure. Parmi tous ces schémas de commande, ce qu’on a retenu pour notre application c’est la commande cascade. Il nous permet de commander le robot dans l’espace opérationnel et les réponses sont assez performantes.
+
+Par rapport à la génération de trajectoires on a bien atteint l’objectif principal de générer les trajectoires nécessaires pour l’application. Cependant, il faut encore vérifier les points de chaque trajectoire afin d’éviter des points de singularité.
+
+Pour l’interface homme-machine, elle est déjà prête et on peut y lancer notre application, tout en générant la séquence de trajectoires de l’outil du robot. Il faut maintenant l’intégrer avec la partie commande et le ROS.
+
+Alors, en ce qui concerne la communication entre MATLAB et le robot simulé, il reste encore des points très importantes à conclure. Dans un travail futur, il sera nécessaire de mettre en \oe{}uvre la boucle de commande en utilisant les subscribers pour mesurer les données des capteurs, et les publishers pour agir sur le robot. En plus il faudra se débrouiller sur le code source du modèle du youbot afin d’accéder directement à l’effort, de façon à imposer notre commande sur le robot.

@@ -1,0 +1,47 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Objectif}{3}{section.2}
+\contentsline {section}{\numberline {3}Division du Travail}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Commande Angulaire et Cart\IeC {\'e}sienne}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Trajectoires}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Communication avec le robot}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Interface Homme $ \leftrightarrow $ Machine }{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}D\IeC {\'e}signation des t\IeC {\^a}ches}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Calendrier du projet}{7}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Suivi du calendrier du projet}{8}{subsection.3.7}
+\contentsline {section}{\numberline {4}M\IeC {\'e}thodologie}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Commande Angulaire et Cart\IeC {\'e}sienne}{9}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Commande Angulaire}{9}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Commande Op\IeC {\'e}rationnelle}{12}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Trajectoires}{17}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Choix de conception et Mise en {\OE }uvre}{18}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Trajectoire Lin\'{e}aire}{18}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Trajectoire Circulaire}{20}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Communication avec le robot}{22}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}\IeC {\'E}tudes initiaux}{22}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Premiers Tests}{22}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Tests du you\_Bot}{22}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Interface Homme $ \leftrightarrow $ Machine}{23}{subsection.4.4}
+\contentsline {section}{\numberline {5}R\IeC {\'e}sultats et Discussions}{24}{section.5}
+\contentsline {subsection}{\numberline {5.1}Commande Angulaire et Cart\IeC {\'e}sienne}{24}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Commande Angulaire}{24}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Commande Cart\IeC {\'e}sienne}{29}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Trajectoires}{40}{subsection.5.2}
+\contentsline {paragraph}{Lin\IeC {\'e}aire}{40}{section*.48}
+\contentsline {paragraph}{Arc de cercle}{41}{section*.52}
+\contentsline {subsection}{\numberline {5.3}Communication avec le robot}{42}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Premiers Tests}{42}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Tests du you\_Bot}{42}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Interface Homme $ \leftrightarrow $ Machine}{43}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Premi\IeC {\`e}re fen\IeC {\^e}tre: Param\IeC {\`e}tres du tableau}{43}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}Deuxi\IeC {\`e}me fen\IeC {\^e}tre: Utilisateurs}{43}{subsubsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.3}Troisi\IeC {\`e}me fen\IeC {\^e}tre: Jeu de Morpion}{44}{subsubsection.5.4.3}
+\contentsline {section}{\numberline {6}Conclusion}{46}{section.6}
+\contentsline {section}{Appendices}{47}{section*.60}
+\contentsline {section}{\numberline {A}Tutoriels you\_Bot / Matlab}{47}{Annexe.1.A}
+\contentsline {subsection}{\numberline {A.1}Installation you\_Bot}{47}{subsection.1.A.1}
+\contentsline {paragraph}{Remarque:}{47}{section*.61}
+\contentsline {subsection}{\numberline {A.2}Configuration Matlab/ROS/you\_Bot}{48}{subsection.1.A.2}
+\contentsline {paragraph}{Remarque:}{48}{section*.62}
+\contentsline {subsection}{\numberline {A.3}Configuration Simulink/ROS/you\_Bot}{48}{subsection.1.A.3}
+\contentsline {paragraph}{Remarque:}{48}{section*.63}

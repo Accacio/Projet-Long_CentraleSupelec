@@ -1,0 +1,171 @@
+\documentclass[a4paper,twoside]{articlewithlogo}
+
+\input{preamble.tex}
+\debugtrue
+\begin{document}
+\large
+\renewcommand{\figurename}{Figure}
+\todo{REMEMBER TO TURN DEBUG OFF}
+\input{titlepage.tex}
+\conteudo
+\newpage
+\mysection{Introduction}
+Ce projet long a comme but la participation a les Olympiades de Robotique Industriel, dont le thème est le développement de une solution pour un problème réel de robotique de une industrie. Il faut que les concepts et les défies référents a robotique industriel soient connu par qui ils soient appliqués correctement pour solutionner des problèmes utilisant le logiciel Roboguide. Ce rapport a comme objective énoncer les activités réalisées pendant la séquence 5 en plus d’analyser et proposer une solution pour l'énoncé de l'année précédente.
+
+
+
+\mysection{Bilan d'activités de la séquence 5}
+
+Les activités de la séquence 5 ont été partagé en 8 séances que sont arrivées tous le mercredi de chaque semaine et quelques vendredis. Les activités seront décrits en suivant, divisés en chaque semaine.
+	
+	\mysubsection{1er Semaine - 28/09}
+	La première chose fait, a été le mise en main du logiciel RoboGuide et la familiarisation avec son interface (figure \ref{fig:roboguide}), ça veut dire apprendre a créer une nouvelle cellule et observation d'une cellule déjà crée pour comprendre la structure de programmation d'un robot et connaitre les principaux paramètres nécessaire pour créer un programme, comme les types de repère, les différentes types de variables de position ainsi comme la utilisation du TEACH PENDANT pour programmer le robot. Après l'avant-projet des  olympiades  de l'année dernière a été lu et quelques tutoriels ont été fait. 
+	
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{./roboguide.JPG}
+			\caption{Interface du Roboguide}
+			\label{fig:roboguide}
+		\end{center}
+	\end{figure}
+	
+	\pagebreak
+	\mysubsection{2ème Semaine - 05/10 et 07/10}
+	Dans cette semaine l'équipe a été divisé en deux groupes, et chacun a réalisé la même activité mais en jours différentes, le programmation du jeu de morpion (figures \ref{fig:morpion} et \ref{fig:morpion1}) et la planification des activités de la séquence 5. 
+	
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{./morpion.JPG}
+			\caption{Robot en faisant un circle}
+			\label{fig:morpion}
+		\end{center}
+	\end{figure}
+	
+	
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{./morpion1.PNG}
+			\caption{Partie du Jeu de Morpion, sur une table inclinée}
+			\label{fig:morpion1}
+		\end{center}
+	\end{figure}
+	
+	\pagebreak
+	\mysubsection{3ème Semaine - 12/10}
+	L'activité réalisé dans cette semaine était la prise et dépose de boîte sur une table. Dans cette activité quelques choses ont été appris, comme la création d'un outil qui bouge (une pince pour exemple) et addition des éléments périphériques qui seront utilisés dans la simulation comme tables, boîtes et autres objets.
+	
+	
+	\mysubsection{4ème Semaine - 19/10}
+	Une réunion avec Mme Makarov a été realisé a propos  des progrès du projet et pour résoudre quelques doutes que n'ont pas été solutionné.  Après la réunion l'équipe a fait une petite auto-évaluation à propos de la bonne maîtrise du logiciel RoboGuide et début de l'étude de l’avant-projet des années dernières (compréhension de la consigne)
+	
+	\mysubsection{5ème Semaine - 26/10} 
+	Pour trainer et étudier comment faire la simulation avec différentes objets, en binôme, programmes de simulation de prise et déposes des boîtes dans un four (figures \ref{fig:four}, \ref{fig:four1} et \ref{fig:four2}), pour différencier les deux simulations, chaque binôme a utilisé un type de pince différente. Et après quelques propositions de solutions pour l'avant-projet analysé la semaine antérieure ont été fait.
+		
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{./four.JPG}
+			\caption{Bras en train de bouger vers la boîte.}
+			\label{fig:four}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{./four1.JPG}
+			\caption{Bras en prennant la boîte.}
+			\label{fig:four1}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{./four2.JPG}
+			\caption{Bras en déposant la boîte dans le four.}
+			\label{fig:four2}
+		\end{center}
+	\end{figure}
+	
+	\mysubsection{6ème Semaine - 02/11 et 04/11}
+	Dans ces jours l'avant-projet de cette année a été lu et discuté, une séquence d'étapes a été proposé a fin de résoudre l'avant projet. Le sujet d'épreuve nº 1 a été pris en main et hypothèses ont été crée à propos de le même. Et l'équipe a discuté la organisation des étapes pour la préparation du rapport de la séquence.
+		
+
+
+
+
+
+\input{Eller}
+\mysection{Analyse du énoncé d'année précédente}
+
+\input{Karol}
+
+\input{Tiago}
+
+\pagebreak
+\mysection{Difficultés trouvées}
+Dans la deuxième étape de la méthodologie proposée, on devait formuler des hypothèses pour permettre la résolution du problème. Une telle hypothèse était la séparabilité entre les deux différentes tâches (remplissage et palletisation), c'est à dire, trouver une solution spécifique pour chaque processus et les ajouter, est une solution global. Cette hypothèse a été considéré si on rassure que le cadence de production soit la même pour les deux processus
+
+
+
+  
+\mysection{Conclusion}
+Comme on peut voir dans ce rapport, l'équipe a ressui obtenir les notions basique nécessaires pour participer aux olympiade soit en gestion de projet, soit en niveau technique, en apprenant comment utiliser le logiciel. 
+
+%\todo{
+%Introdução+objetivos
+%1 parte: contando o que fizemos na sequencia 5
+%
+%2 parte: análise do enunciado do ano anterior
+%
+%
+%
+%
+%Atividades Realizadas
+%
+%Colocar o que fizemos em cada semana (em um texto único). 
+%Análise do enunciado do ano anterior
+%Escolha do robo;
+%1)	Enunciado: resumo do enunciado e ver o que precisa ser seguido a risca, analisar o diagrama ASM;
+%
+%2)	Venda: com engenharia reversa. Ex. Problema numero 1: escolha do robo; problema 2: movimentação e posicionamento do robo; problema 3: elementos de simulação 
+%
+%Critica
+%
+%Análise do ASM e reler e ridigir o enunciando enunciando as variaveis livres do ano anterior
+%
+%Durante esta sequencia, os 
+%
+%
+%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bibliographystyle{plain}
+%\bibliography{bibliografia}
+\end{document}

@@ -1,0 +1,72 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./morpion1.PNG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:morpion1}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./four.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:four}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./four1.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:four1}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./four2.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:four2}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./morpion.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:morpion}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./rap1.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:rap1}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./rap2.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:rap2}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./rap3.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:rap3}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./roboguide.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:roboguide}
+	\end{center}
+\end{figure}
+

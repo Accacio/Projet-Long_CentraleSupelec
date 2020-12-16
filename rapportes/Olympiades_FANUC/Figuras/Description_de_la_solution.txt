@@ -1,0 +1,88 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Detail_de_la_barriere.png}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Detail_de_la_barriere}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/hauteur.png}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:hauteur}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Points_de_la_region.png}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Points_de_la_region}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/X.png}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:X}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Layout.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Layout}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/mov.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:mov}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Pos.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Pos}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Repere_carton.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Repere_carton}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/traj.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:traj}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Vue_1.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Vue_1}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Description_de_la_solution/Vue_2.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Vue_2}
+	\end{center}
+\end{figure}
+

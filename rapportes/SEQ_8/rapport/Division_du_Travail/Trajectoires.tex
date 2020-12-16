@@ -1,0 +1,21 @@
+\mysubsection{Trajectoires}
+\label{sec:Traj}
+Afin d'organiser et simplifier le travail de la création des trajectoires, on a défini deux types de trajectoire: linéaire et arc de cercle. Comme entrée de la fonction, on prend le type de trajectoire, le point initial, un point intermédiaire (pour des arcs de cercle) et le point final. La création de chacun de ces types de trajectoire peut être divisée en plusieurs étapes. 
+
+Pour les trajectoires linéaires: 
+
+\begin{itemize}
+	\item 1.A.1: Création d'une trajectoire linéaire entre deux points: 2 créneaux;
+	 \item  1.A.2: Calcul du polynôme interpolateur: 2 créneaux; 
+\end{itemize}
+%\todo{Calcular polinomio interpolador com derivada igual a 0 onde começa e igual a 0 onde termina}
+
+Pour les trajectoires Circulaires:
+
+\begin{itemize}
+	\item 1.A.3: Calcul du cercle: 2 créneaux;
+	\item  1.A.4: Paramétrisation du cercle: 2 créneaux;
+	 \item 1.A.5: Calcul du angle du arc: 2 créneaux;
+	 \item 1.A.6: Calcul du polynôme interpolateur: 2 créneaux; 
+\end{itemize}
+

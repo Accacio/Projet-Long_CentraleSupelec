@@ -1,0 +1,8 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Methodologie/Representation.png}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Representation}
+	\end{center}
+\end{figure}
+

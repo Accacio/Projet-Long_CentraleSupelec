@@ -1,0 +1,16 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Evaluation/area_DCS.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:area_DCS}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Evaluation/area_tous.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:area_tous}
+	\end{center}
+\end{figure}
+

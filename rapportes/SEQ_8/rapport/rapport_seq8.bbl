@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+
+\bibitem{rosdoc}
+Documentation du ros.
+\newblock \url{http://wiki.ros.org/}.
+\newblock Accessed: 2017-05-20.
+
+\bibitem{YoubotKin}
+Kuka youbot kinematics, dynamics and 3d model.
+\newblock
+  \url{http://www.youbot-store.com/developers/kuka-youbot-kinematics-dynamics-and-3d-model-81}.
+\newblock Accessed: 2017-05-10.
+
+\bibitem{downloadmachine}
+Lien de téléchargement de la machine avec ros pré-installé.
+\newblock
+  \url{https://www.mathworks.com/supportfiles/robotics/ros/virtual_machines/v3/installation_instructions.htm}.
+\newblock Accessed: 2017-05-20.
+
+\bibitem{matlabrobotics}
+Robotics system toolbox examples.
+\newblock \url{https://fr.mathworks.com/help/robotics/examples.html}.
+\newblock Accessed: 2017-05-20.
+
+\bibitem{roscatkin}
+Ros creation espace travaille catkin.
+\newblock \url{http://wiki.ros.org/catkin/Tutorials/create_a_workspace}.
+\newblock Accessed: 2017-05-20.
+
+\bibitem{craig2005introduction}
+J.J. Craig.
+\newblock {\em Introduction to Robotics: Mechanics and Control}.
+\newblock Addison-Wesley series in electrical and computer engineering: control
+  engineering. Pearson/Prentice Hall, 2005.
+
+\bibitem{KELLY20051423}
+Rafael Kelly and Javier Moreno.
+\newblock Manipulator motion control in operational space using joint velocity
+  inner loops.
+\newblock {\em Automatica}, 41(8):1423 -- 1432, 2005.
+
+\bibitem{khalil2004modeling}
+W.~Khalil and E.~Dombre.
+\newblock {\em Modeling, Identification and Control of Robots}.
+\newblock Kogan Page Science paper edition. Elsevier Science, 2004.
+
+\bibitem{ogata2010modern}
+K.~Ogata.
+\newblock {\em Modern Control Engineering}.
+\newblock Instrumentation and controls series. Prentice Hall, 2010.
+
+\end{thebibliography}

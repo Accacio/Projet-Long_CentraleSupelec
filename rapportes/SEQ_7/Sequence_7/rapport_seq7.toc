@@ -1,0 +1,37 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Objectif}{3}{section.2}
+\contentsline {section}{\numberline {3}Division du Travail}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}D\IeC {\'e}finition des t\IeC {\^a}ches \IeC {\`a} entreprendre}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Commande Angulaire et Cart\IeC {\'e}sienne}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Trajectoires}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Communication avec le robot}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Interface Homme $ \leftrightarrow $ Machine }{6}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}D\IeC {\'e}signation des t\IeC {\^a}ches}{6}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Calendrier du projet}{7}{subsection.3.7}
+\contentsline {section}{\numberline {4}M\IeC {\'e}thodologie}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Commande Angulaire et Cart\IeC {\'e}sienne}{7}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Commande Angulaire}{8}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Commande Cart\IeC {\'e}sienne}{10}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Trajectoire}{12}{subsection.4.2}
+\contentsline {paragraph}{1.A.1 Cr\IeC {\'e}ation d'une trajectoire lin\IeC {\'e}aire entre deux points}{12}{section*.9}
+\contentsline {paragraph}{1.A.2 Calcul du polyn\IeC {\^o}me interpolateur}{12}{section*.10}
+\contentsline {paragraph}{1.A.3 Calcul du cercle}{12}{section*.11}
+\contentsline {paragraph}{1.A.4 Param\IeC {\'e}trisation du cercle}{12}{section*.12}
+\contentsline {paragraph}{1.A.5 Calcul du angle du arc}{12}{section*.13}
+\contentsline {paragraph}{1.A.6 Calcul du polyn\IeC {\^o}me interpolateur}{12}{section*.14}
+\contentsline {subsection}{\numberline {4.3}2.B Interface Homme $ \leftrightarrow $ Machine}{13}{subsection.4.3}
+\contentsline {paragraph}{2.B.0 Fonction concise des trajectoires et commande}{13}{section*.15}
+\contentsline {paragraph}{2.B.1 D\IeC {\'e}finition d'environnement de travail (tableau)}{13}{section*.16}
+\contentsline {paragraph}{2.B.2 Cr\IeC {\'e}ation des fonctions "X" et "O"}{13}{section*.17}
+\contentsline {paragraph}{2.B.3 D\IeC {\'e}finition de la disposition graphique d\IeC {\textquoteright }IHM}{13}{section*.18}
+\contentsline {paragraph}{2.B.4 D\IeC {\'e}finition de donn\IeC {\'e}es d'entr\IeC {\'e}e n\IeC {\'e}cessaires IHM}{13}{section*.19}
+\contentsline {paragraph}{2.B.5 L'insertion des objects graphiques}{14}{section*.20}
+\contentsline {paragraph}{2.B.6 Cr\IeC {\'e}ation et gestion d'\IeC {\'e}v\IeC {\'e}nements}{14}{section*.21}
+\contentsline {paragraph}{2.B.7 Tests, d\IeC {\'e}pannage et int\IeC {\'e}gration}{14}{section*.22}
+\contentsline {section}{\numberline {5}R\IeC {\'e}sultats et Discussions}{14}{section.5}
+\contentsline {subsection}{\numberline {5.1}Commande Angulaire et Cart\IeC {\'e}sienne}{14}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Trajectoires}{19}{subsection.5.2}
+\contentsline {paragraph}{Lin\IeC {\'e}aire}{19}{section*.32}
+\contentsline {paragraph}{Arc de cercle}{20}{section*.36}
+\contentsline {section}{\numberline {6}Conclusion}{21}{section.6}

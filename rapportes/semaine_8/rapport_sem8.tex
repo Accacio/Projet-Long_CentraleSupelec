@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper,onecolumn]{articlewithlogo}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{wasysym}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{{Figures/}}
+\usepackage{blindtext}
+\newif\ifdebug
+\newcommand\todo[1]{\ifdebug {\color{red}#1}\fi}
+\debugfalse
+
+\logo{logos/supelec.jpeg}{50mm}
+\title{Rapport d'activité de la Semaine 8}
+\author{Karoline CARVALHO BÜRGER\\ Tiago DE JESUS RODRIGUES\\  Rafael ELLER CRUZ \\Rafael Accácio NOGUEIRA }
+\teacher{Mme. MAKAROV}
+\date{\today}
+
+\begin{document}
+\maketitle
+\section{Activités Réalisées le mardi 29/11/16 et \\ le mercredi 30/11/16  }
+\begin{itemize}
+	\renewcommand\labelitemi{$\circ$}
+	\item Définition des contraintes du problème
+	\item Énumération des types de robots possibles pour être utilisés
+	\item Début de la création d'une cellule avec les éléments nécessaires pour la simulation (convoyeurs, cartons et une robot) 
+	\item Petit rendez vous avec Mme. Makarov, pour éclaircir les doutes quant à l'avant-projet.
+%	\item Étude des fonctionnement du DCS
+%	\item Début de création d'une cellule qu'utilise le DCS
+\end{itemize}
+
+\newpage
+\subsection{Définitions du problème}
+\subsubsection{Objetif Principal}
+\begin{itemize}
+	\renewcommand\labelitemi{$\circ$}
+	\item Paletisation des cartons
+	
+\end{itemize}
+\subsubsection{Objetifs Secondaires}
+\begin{itemize}
+	\renewcommand\labelitemi{$\circ$}
+	\item Réduire en la moitié l'aire occupé 
+	\item Réduire le temps nécessaire pour réaliser la paletisation 
+\end{itemize}
+
+\subsubsection{Pas:}
+\begin{enumerate}
+	\item Choix du Robot
+	\item Simulation des trajectoires
+	\item Étude des risques
+	\item Étude budgétaire (\$)
+\end{enumerate}
+
+\subsubsection{DESCRIPTION}
+\begin{itemize}
+	\renewcommand{\labelitemi}{$\rightarrow$}
+	\item Convoyeur de cartons par accumulation
+	\item Préhenseur à vide: 20 Kg
+	\item Carton 50 Kg ; 411 produits/h
+	\item Palettes: 2 colonnes de 6 cartons chacune
+\end{itemize}
+
+\subsubsection{DONNÉS DU PROBLÈME}
+\begin{itemize}
+	\item Cartons $\left\lbrace	\begin{tabular}{cc}
+	Dimensions: & 780 $\times$ 540 $\times$ 350 mm (L $\times$ l $\times$ h) \\ 
+	Masse unitaire: & 50 Kg \\
+	Cadence convoyeur: & 411 produits/heure  
+	\end{tabular} \right.$\\
+	\item Palettes $\left\lbrace	\begin{tabular}{cc}
+	Dimensions: & 1200 $\times$ 800 mm (L $\times$ l)
+	\end{tabular} \right.$\\
+	\item Convoyeur de cartons  $\left\lbrace	\begin{tabular}{cc}
+		Hauter: & 1100 mm \\ 
+		Longuer & 3050 mm \\ 
+	\end{tabular} \right.$\\
+	\item Convoyeur de palette  $\left\lbrace	\begin{tabular}{cc}
+	Hauter: & 1100 mm \\ 
+	Longuer & 3050 mm \\ 
+	\end{tabular} \right.$\\
+	\item Préhenseur $\left\lbrace	\begin{tabular}{cc}
+	Temps d'aspiration des cartons: & 1 s \\ 
+	Temps  de contre soufflages des cartons: & 0.5 s \\ 
+	\end{tabular} \right.$ 
+\end{itemize}
+\pagebreak
+
+\bibliographystyle{plain}
+%\bibliography{bibliografia}
+\end{document}

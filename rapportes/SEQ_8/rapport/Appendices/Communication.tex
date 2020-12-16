@@ -1,0 +1,109 @@
+\section{Tutoriels you\_Bot / Matlab}
+\label{appen:commum}
+\subsection{Installation you\_Bot}
+Pour installer le pilote you\_Bot, il faut premièrement avoir ROS installé dans la machine, dans notre cas nous avons utilisés une machine virtuel avec ROS Indigo pré-installé. La machine est disponible utilisant le lien en \cite{downloadmachine}.\\
+Aprés, il faut courir les commandes au terminal:
+
+
+\begin{verbatim}
+	sudo apt-get install ros-indigo-youbot-driver
+	sudo ldconfig /opt/ros/indigo/lib
+	sudo apt-get install ros-indigo-youbot-driver-ros-interface \
+	    ros-indigo-youbot-description
+	sudo setcap cap_net_raw+ep \
+	    /opt/ros/indigo/lib/youbot_driver_ros_interface\
+	    /youbot_driver_ros_interface
+	sudo ldconfig /opt/ros/indigo/lib
+\end{verbatim}
+	Maintenant le pilote et le \flqq{}wrapper\frqq{} sont installés. Pour installer le simulateur gazebo et les modèles du you\_Bot il faut courir:
+
+\begin{verbatim}	
+	sudo apt-get install ros-indigo-ros-control ros-indigo-ros-controllers\
+	    ros-indigo-gazebo-ros-control
+	cd <your-catkin-folder>/src
+	git clone http://github.com/youbot/youbot_description.git -b indigo-devel
+	git clone http://github.com/youbot/youbot_simulation.git
+	catkin_make
+	source <your-catkin-folder>/devel/setup.bash
+\end{verbatim}
+
+Où \verb|<your-catkin-folder>| est le nom du \flqq catkin workspace\frqq{} utilisé, \cite{roscatkin}.
+Pour tester il faut courir:
+
+\begin{verbatim}
+roslaunch youbot_gazebo_robot youbot.launch 
+\end{verbatim}
+
+
+
+Et dans autre terminal:
+
+\begin{verbatim}
+rosrun youbot_driver_ros_interface youbot_keyboard_teleop.py
+\end{verbatim}
+
+Maintenant utilisant les commandes donnés par le programme, on peut mouvementer le robot. Pour faire le test des articulations il faut courir le code suivant au lieu du antérieur:
+
+\begin{verbatim}
+	rosrun youbot_driver_ros_interface youbot_arm_test
+\end{verbatim} 
+		
+Chacun de ces programmes peuvent être arrêtés par \verb|^C|.
+
+
+\paragraph{Remarque:} Le code \verb|roslaunch youbot_gazebo_robot youbot.launch| charge dans le simulateur le modèle du robot avec sa base roulante, au lieu de ce code il faut utiliser le code suivant, pour le modèle sans la base :
+
+\begin{verbatim}	
+roslaunch youbot_gazebo_robot youbot_arm_only.launch
+\end{verbatim}
+
+\subsection{Configuration Matlab/ROS/you\_Bot}
+Avec une distribution récent du Matlab (R2015a par exemple) et que aie le \flqq{}Robotics System Toolbox\frqq{} installé ( lien et tutoriels en \cite{matlabrobotics} ). Il faut le configurer, pour commencer un node ROS au matlab et le connecter a un master (dans nos cas, le robot ) il faut courir cet code:
+\begin{verbatim}
+rosinit('host_ip')
+\end{verbatim}
+
+Où \verb|host_ip| est l'adresse ip du master, 192.168.1.1 par exemple. Pour s'assurer de la valeur du adresse ip, il faut courir dans la machine où le robot est connecté:
+
+\begin{verbatim}
+ifconfig
+\end{verbatim}
+
+Et dans le terminal il aura la valeur du ip de la machine. Cas il n'y est pas là, consulter la connexion de la machine avec le réseaux.
+
+Après la connexion entre Matlab et la machine connecté au robot, il faut le tester, donc on peut créer un abonné a partir du matlab pour lire les informations données par le robot:
+
+
+\begin{verbatim}
+joints_subs = rossubscriber('/joint_states')
+\end{verbatim} 
+
+Et après pour recevoir les valeurs:
+
+\begin{verbatim}
+joint_data = receive(joints_subs,10)
+\end{verbatim} 
+
+Et maintenant, nous avons les valeurs momentanées de position, vitesse et effort, dans nos cas l'angle, la vitesse angulaire et le couple en chaque joint.
+
+\paragraph{Remarque:} Pour envoyer les couples il faut plus des temps d'étude, a fin de déterminer que topique a utiliser.
+
+\subsection{Configuration Simulink/ROS/you\_Bot}
+
+La connexion entre Simulink et la Machine est un peu similaire au qu'a été fait antérieurement mais purement graphique utilisant la \flqq{}GUI\frqq{} du Simulink.
+
+Dans une nouvelle fenêtre du Simulink, et après sélectionner dans le menu \verb|Tools > Robot Operating System > Configure Network Addresses|, après saisir l'adresse ip du master, dans le champ \verb|Hostname/IP Adress| et cliquer en Ok.
+ 
+Dans le modèle insérer un bloc \flqq{}Subscribe\frqq{}  , un bloc \flqq{}Terminator\frqq{}, un \flqq{}Bus Selector\frqq{} et 3 \flqq{}Scopes\frqq{}. 
+ 
+Sélectionner le bloc \flqq{}Subscribe\frqq{} et le configurer pour recevoir le topique \verb|joint_states|.
+
+Lier \verb|IsNew| dans le  terminal du bloc \flqq{}Terminator\frqq{} et \verb|Msg| dans la entrée du \flqq{}Bus Selector\frqq{}.
+
+Dans \flqq{}Bus Selector\frqq{}, sélectionner Position, Vitesse et Effort.
+
+Lier chacune sortie du \flqq{}Bus Selector\frqq{} a un \flqq{}Scope\frqq{} différent.
+
+Après, faire courir la simulation. Chaque \flqq{}Scopes\frqq{} aura 7 courbes, chacune caractérisant les 7 articulations, 5 joint plus 2 acteurs des pinces.
+
+\paragraph{Remarque:} Pour envoyer les couples il faut plus des temps d'étude, a fin de déterminer que topique a utiliser.

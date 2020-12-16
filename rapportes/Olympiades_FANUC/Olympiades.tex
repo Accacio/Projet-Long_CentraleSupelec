@@ -1,0 +1,25 @@
+\documentclass[a4paper,twoside]{articlewithlogo}
+
+\input{preamble.tex}
+\debugfalse
+\begin{document}
+\large
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Tableau}
+\todo{REMEMBER TO TURN DEBUG OFF}
+\input{titlepage.tex}
+
+\conteudo
+\newpage
+
+\input{Introduction}
+\input{Cadre_du_Projet}
+\input{Methodologie}
+\input{Description_de_la_solution}
+\input{Evaluation}
+\input{Conclusion}
+
+\bibliographystyle{plain}
+\nocite{*}
+\bibliography{bibliografia}
+\end{document}

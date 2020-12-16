@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper,onecolumn]{articlewithlogo}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{{Figures/}}
+\usepackage{blindtext}
+\newif\ifdebug
+\newcommand\todo[1]{\ifdebug {\color{red}#1}\fi}
+\debugfalse
+
+\logo{logos/supelec.jpeg}{50mm}
+\title{Rapport d'activité de la Semaine 3}
+\author{Karoline CARVALHO BÜRGER\\ Tiago DE JESUS RODRIGUES\\  Rafael ELLER CRUZ \\  Rafael Accácio NOGUEIRA }
+\teacher{Mme. MAKAROV}
+\date{19 octobre 2016}
+
+\begin{document}
+\maketitle
+\section{Activités Réalisées le mercredi 12/10/16  }
+\begin{itemize}
+	\renewcommand\labelitemi{$\circ$}
+	\item L’exercice de prise et dépose de boîte:
+		\begin{itemize}
+	\item Création d’outil par simulation (pince)
+	\item 	Ajouter des éléments périphériques (tables, boîtes)
+	\item 	Réglage de la simulation outil
+	\item 	Création de trajectoires simulées
+		\end{itemize}
+	\vspace{1cm}
+	 Obs. : On n’a pas réussi de finir la simulation, parce que la boîte n’accompagne pas la pince dans son mouvement. On sait comment faire la simulation en utilisant l’outil de simulation, mais on a essayé de faire le programme dans de teach et ensuite le liée à la simulation.
+	
+\end{itemize}
+
+\bibliographystyle{plain}
+%\bibliography{bibliografia}
+\end{document}
