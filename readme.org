@@ -15,7 +15,8 @@ FANUC France Industrial Robotics Olympics
 https://www.youtube.com/watch?v=i4lvXPtLeiY
 
 - 3rd Place
-file:Olympiades/Video/robot.gif
+<img src="/Olympiades/Video/robot.gif" alt="Robotic arm stacking boxes in pallet" align="center" title="Stacking boxes in pallet" class="img" </img>
+
 https://youtu.be/6XlS9a2WI9s
 ** 2nd semester
 Tick tack toe using a robot (simulation)
