@@ -3,17 +3,19 @@
 * Introduction
 Documentation of Long Project done for the second year of engineering at CentraleSupelec Supervised by Mme Makarov
 
-** FANUC France Industrial Robotics Olympics
+Team:
+- Karoline CARVALHO BÜRGER
+- Tiago DE JESUS RODRIGUES
+- Rafael ELLER CRUZ @rafellerc
+- Rafael Accácio NOGUEIRA @Accacio
+
+
+** 1st Semester
+FANUC France Industrial Robotics Olympics
 https://www.youtube.com/watch?v=i4lvXPtLeiY
 
-
-3rd Place
+- 3rd Place
+file:Olympiades/Video/robot.gif
 https://youtu.be/6XlS9a2WI9s
-Team:
-Karoline CARVALHO BÜRGER
-Tiago DE JESUS RODRIGUES
-Rafael ELLER CRUZ @rafellerc
-Rafael Accácio NOGUEIRA @Accacio
-
 ** 2nd semester
 Tick tack toe using a robot (simulation)
