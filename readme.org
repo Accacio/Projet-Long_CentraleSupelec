@@ -6,13 +6,12 @@ Documentation of Long Project done for the second year of engineering at Central
 Team:
 - Karoline CARVALHO BÜRGER
 - Tiago DE JESUS RODRIGUES
-- Rafael ELLER CRUZ @rafellerc
-- Rafael Accácio NOGUEIRA @Accacio
+- Rafael ELLER CRUZ [[@rafellerc][github.com/rafellerc]]
+- Rafael Accácio NOGUEIRA [[@Accacio][github.com/Accacio]]
 
 
 ** 1st Semester
-FANUC France Industrial Robotics Olympics
-https://www.youtube.com/watch?v=i4lvXPtLeiY
+[[https://www.youtube.com/watch?v=i4lvXPtLeiY][FANUC France Industrial Robotics Olympics 2017]]
 
 - 3rd Place
 #+HTML: <a href="https://youtu.be/6XlS9a2WI9s"><img src="/Olympiades/Video/robot.gif" alt="Robotic arm stacking boxes in pallet" align="center" title="Stacking boxes in pallet" class="img" </img></a>
