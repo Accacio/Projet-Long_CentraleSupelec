@@ -19,4 +19,4 @@ Team:
 
 
 ** 2nd semester
-Tick tack toe using a robot (simulation)
+Tic-tac-toe using a robot (simulation)
