@@ -11,6 +11,7 @@ Team:
 
 
 ** 1st Semester
+#+HTML: <img src="/Olympiades/robotFront.jpeg" alt="Robotic arm stacking boxes in pallet" align="center" title="Stacking boxes in pallet" class="img" </img>
 [[https://www.youtube.com/watch?v=i4lvXPtLeiY][FANUC France Industrial Robotics Olympics 2017]]
 
 - 3rd Place
