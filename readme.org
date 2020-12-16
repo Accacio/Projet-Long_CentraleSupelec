@@ -6,8 +6,8 @@ Documentation of Long Project done for the second year of engineering at Central
 Team:
 - Karoline CARVALHO BÜRGER
 - Tiago DE JESUS RODRIGUES
-- Rafael ELLER CRUZ [[github.com/rafellerc][@rafellerc]]
-- Rafael Accácio NOGUEIRA [[github.com/Accacio][@Accacio]]
+- Rafael ELLER CRUZ [[https://github.com/rafellerc][@rafellerc]]
+- Rafael Accácio NOGUEIRA [[https://github.com/Accacio][@Accacio]]
 
 
 ** 1st Semester
